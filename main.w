@@ -3,5 +3,5 @@ bring cloud;
 let bucket = new cloud.Bucket();
 
 new cloud.Function(inflight () => {
-  bucket.put("hello", "world");
+  bucket.put("hello", "world!");
 });
